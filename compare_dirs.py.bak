@@ -3,16 +3,16 @@ import os
 import shutil
 
 # Source directory of 'before' files
-before_path = r'Y:\temp\Wand_part2\Wand_NEW\Wand_KPI\before_Validation' # Enter source 'before' path
+before_path = r'C:\Users\USER\OneDrive - vayyar.com\Desktop\before11' # Enter source 'before' path
 before_dir_list = os.listdir(before_path)
 
 # Source directory 'after' files
-after_path = r'Y:\temp\Wand_part2\Wand_NEW\Wand_KPI\after_Validation' # Enter source 'after' path
+after_path = r'C:\Users\USER\OneDrive - vayyar.com\Desktop\after11' # Enter source 'after' path
 after_dir_list = os.listdir(after_path)
 
 # Destination directory of valid files
-valid_before_path = r'Y:\temp\Wand_part2\Wand_NEW\Wand_KPI\__checked\before' # Enter dest 'before' path
-valid_after_path = r'Y:\temp\Wand_part2\Wand_NEW\Wand_KPI\__checked\after' # Enter dest 'after' path
+valid_before_path = r'C:\Users\USER\OneDrive - vayyar.com\Desktop\valid after check\before' # Enter dest 'before' path
+valid_after_path = r'C:\Users\USER\OneDrive - vayyar.com\Desktop\valid after check\after' # Enter dest 'after' path
 
 
 for beforeFile in before_dir_list:
